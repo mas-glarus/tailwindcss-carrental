@@ -427,6 +427,21 @@ Ensure the default browser behavior of the `hidden` attribute.
 .m-0 {
   margin: 0px;
 }
+.mx-12 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+.mb-12 {
+  margin-bottom: 3rem;
+}
 .flex {
   display: flex;
 }
@@ -439,11 +454,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-3\/4 {
   height: 75%;
 }
+.h-hmax {
+  height: 37.5rem;
+}
 .w-full {
   width: 100%;
 }
-.w-2\/3 {
-  width: 66.666667%;
+.w-wmax {
+  width: 51.5rem;
 }
 .w-1\/3 {
   width: 33.333333%;
@@ -469,6 +487,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-bg-opacity: 1;
   background-color: rgb(227 136 38 / var(--tw-bg-opacity));
 }
+.bg-col2 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 242 242 / var(--tw-bg-opacity));
+}
 .bg-cyan1 {
   --tw-bg-opacity: 1;
   background-color: rgb(0 105 112 / var(--tw-bg-opacity));
@@ -479,4 +501,46 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .p-0 {
   padding: 0px;
+}
+.p-6 {
+  padding: 1.5rem;
+}
+.p-4 {
+  padding: 1rem;
+}
+.font-shoulders {
+  font-family: "Big Shoulders Display";
+}
+.font-deca {
+  font-family: "Lexend Deca";
+}
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+.font-bold {
+  font-weight: 700;
+}
+.text-col2 {
+  --tw-text-opacity: 1;
+  color: rgb(242 242 242 / var(--tw-text-opacity));
+}
+.text-col1 {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-transparent {
+  color: transparent;
+}
+.text-orange1 {
+  --tw-text-opacity: 1;
+  color: rgb(227 136 38 / var(--tw-text-opacity));
+}
+.text-cyan2 {
+  --tw-text-opacity: 1;
+  color: rgb(0 66 65 / var(--tw-text-opacity));
+}
+.text-cyan1 {
+  --tw-text-opacity: 1;
+  color: rgb(0 105 112 / var(--tw-text-opacity));
 }
